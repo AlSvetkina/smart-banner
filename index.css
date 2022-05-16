@@ -1,7 +1,7 @@
 .smartbanner {
     left:0;top:0;
     width:100%;
-    height:78px;
+    height:125px;
     background:#494949;
     display: flex;
 }
@@ -14,13 +14,13 @@
 }
 
 .smartbanner-close {
-    font-size:15px;
-    text-align:center;
-    text-decoration:none;
-    border-radius:14px;
-    width:17px;
-    height:17px;
-    line-height:17px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 14px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
     color: white;
     background:black;
 }
@@ -30,10 +30,10 @@
 }
 
 .smartbanner-icon{
-    width:57px;
-    height:57px;
+    width: 100px;
+    height: 100px;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 15px;
     background-size:cover;
     background-image: url("logo.png");
     margin-left: 10px;
@@ -42,7 +42,7 @@
 
 .smartbanner-info{
     flex-grow: 1;
-    font-size:12px;
+    font-size:24px;
     line-height:1.2em;
     color: rgb(178, 178, 178);
 }
@@ -55,14 +55,15 @@
 }
 
 .smartbanner-button{
-    border:2px solid #babbc4;
-    height:24px;
-    font-size:14px;
-    line-height:24px;
-    text-align:center;
+    border: 2px solid #babbc4;
+    width: 92px;
+    height: 42px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
     color:#fff;
     background-color:#70a6b7;
-    text-decoration:none;
+    text-decoration: none;
     margin-right: 25px;
 }
 
