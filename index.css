@@ -1,0 +1,77 @@
+.smartbanner {
+    left:0;top:0;
+    width:100%;
+    height:78px;
+    background:#494949;
+    display: flex;
+}
+
+.smartbanner-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 5px;
+}
+
+.smartbanner-close {
+    font-size:15px;
+    text-align:center;
+    text-decoration:none;
+    border-radius:14px;
+    width:17px;
+    height:17px;
+    line-height:17px;
+    color: white;
+    background:black;
+}
+
+.smartbanner-close:active,.smartbanner-close:hover {
+    color:#333;
+}
+
+.smartbanner-icon{
+    width:57px;
+    height:57px;
+    background-color: #fff;
+    border-radius: 10px;
+    background-size:cover;
+    background-image: url("logo.png");
+    margin-left: 10px;
+    margin-right: 12px;
+}
+
+.smartbanner-info{
+    flex-grow: 1;
+    font-size:12px;
+    line-height:1.2em;
+    color: rgb(178, 178, 178);
+}
+
+.smartbanner-title {
+    font-size:15px;
+    line-height:17px;
+    color:white;
+    font-weight:bold;
+}
+
+.smartbanner-button{
+    border:2px solid #babbc4;
+    height:24px;
+    font-size:14px;
+    line-height:24px;
+    text-align:center;
+    color:#fff;
+    background-color:#70a6b7;
+    text-decoration:none;
+    margin-right: 25px;
+}
+
+.smartbanner-button:hover {
+    background-color: #70a6;
+}
+
+.smartbanner-button-text {
+    text-align:center;
+    display:block;
+    padding:0 5px;
+}
